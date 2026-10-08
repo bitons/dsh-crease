@@ -67,6 +67,11 @@ npm test
 
 诊断入口为 `window.__dshCrease.diag()`；其他入口包括 `folds()`、`inks()`、`getStyle()`、`openSettings()`、`restoreAll()`。诊断和记录可能含对话文字，提交问题前请脱敏，优先使用虚构文本复现。
 
+## 待完成
+
+- 一些技术细节。
+- AI分析为什么这些注意力是冗余的并在对话中改进。
+
 ## 参与
 
 参见 [贡献说明](CONTRIBUTING.md)、[待办](ROADMAP.md) 与 [更新记录](CHANGELOG.md)。鲸鱼图形的来源和许可证见 [第三方声明](THIRD_PARTY_NOTICES.md)。

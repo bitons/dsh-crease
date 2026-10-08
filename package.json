@@ -1,0 +1,61 @@
+{
+  "name": "dsh-crease",
+  "version": "0.12.3",
+  "private": true,
+  "description": "折痕 · 隐墨 — 整行收起阅读区域，精确轻掩字句。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client-v0.12.3-paper.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client-v0.12.3-paper.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "licenses"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "fold",
+    "crease",
+    "attention"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-session"
+      ]
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.0-rc.2": "compatible"
+      },
+      "profiles": [
+        "desktop",
+        "web"
+      ]
+    },
+    "engines": {
+      "dsh": ">=0.2.0-rc.2 <0.3.0"
+    }
+  },
+  "scripts": {
+    "test": "node tests/dom-regression.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "20.0.2"
+  },
+  "license": "MIT"
+}

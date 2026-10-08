@@ -1,0 +1,5 @@
+# dsh-crease（折痕）bundle patch：向 profile 组合层插入本插件的 roster 行。
+# 客户端半在 client-v0.12.3-paper.js，宿主半为空实现，真正的功能全在浏览器侧。
+- insert:
+    - id: dsh-crease
+      name: 'dsh-crease'

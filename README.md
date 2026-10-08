@@ -1,6 +1,6 @@
 # 折痕 · 隐墨
 
-在 DeepSeek Harness 的对话中，收起暂时不读的段落，轻掩暂时不想看的字句。
+在 DeepSeek Harness 的对话中，收起暂时不读的段落，轻掩暂时不想看的字句，我的注意力很珍贵。
 
 **实验版本 0.12.3 · MIT · 非官方社区插件**
 
@@ -15,6 +15,16 @@
 | 范围 | 正文整行、代码逻辑行、列表条目、表格行 | 精确到所选文字 |
 | 切换 | 点击折痕展开或收起 | 点击色带揭开或遮住 |
 | 单独移除 | Alt 点击，或聚焦后按 Delete | Alt 点击，或聚焦后按 Delete |
+
+<div align="center">
+<img width="673" height="114" alt="折叠" src="https://github.com/user-attachments/assets/db1e047d-5f16-4f3f-9e61-e1a12eedcb2a" />
+<br>
+a)折叠
+<br><br>
+<img width="681" height="218" alt="展开" src="https://github.com/user-attachments/assets/d70c850b-4d4a-4d27-b202-26fb5414e7a6" />
+<br>
+b)展开
+</div>
 
 也可用 Alt + 左键拖动或右键拖动创建折痕。聚焦折痕或隐墨后，Enter / 空格切换状态；Esc 取消选择。右键点击悬浮鲸鱼恢复当前会话的全部折痕与隐墨。
 
